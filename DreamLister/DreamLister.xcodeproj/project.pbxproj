@@ -37,6 +37,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1CAA2B1EE4882100C1529A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6B1CAA2C1EE4882A00C1529A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BD941B81EE4826E008FB4E7 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6B1CAA2D1EE4883700C1529A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BD941C01EE4826E008FB4E7 /* Assets.xcassets */,
+				6BD941C21EE4826E008FB4E7 /* LaunchScreen.storyboard */,
+				6BD941C51EE4826E008FB4E7 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B1CAA2E1EE4884500C1529A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6BD941BA1EE4826E008FB4E7 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6B1CAA2F1EE4885200C1529A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6BD941BD1EE4826E008FB4E7 /* DreamLister.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		6BD941AA1EE4826E008FB4E7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,12 @@
 		6BD941B51EE4826E008FB4E7 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				6B1CAA2F1EE4885200C1529A /* CoreData */,
+				6B1CAA2E1EE4884500C1529A /* Storyboards */,
+				6B1CAA2D1EE4883700C1529A /* Resources */,
+				6B1CAA2B1EE4882100C1529A /* Models */,
 				6BD941B61EE4826E008FB4E7 /* AppDelegate.swift */,
-				6BD941B81EE4826E008FB4E7 /* ViewController.swift */,
-				6BD941BA1EE4826E008FB4E7 /* Main.storyboard */,
-				6BD941C01EE4826E008FB4E7 /* Assets.xcassets */,
-				6BD941C21EE4826E008FB4E7 /* LaunchScreen.storyboard */,
-				6BD941C51EE4826E008FB4E7 /* Info.plist */,
-				6BD941BD1EE4826E008FB4E7 /* DreamLister.xcdatamodeld */,
+				6B1CAA2C1EE4882A00C1529A /* ViewControllers */,
 			);
 			path = DreamLister;
 			sourceTree = "<group>";
@@ -306,6 +346,7 @@
 				6BD941CA1EE4826E008FB4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
